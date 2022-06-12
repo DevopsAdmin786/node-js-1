@@ -6,6 +6,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
   response.send('Hello Testing DevOps Node! JS Project Hello How are you ? welcome to devOps Project')
+  response.send('This is my node.js project application')
 }) 
 
 app.listen(app.get('port'), function() {
