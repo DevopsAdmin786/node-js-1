@@ -5,17 +5,10 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Hello Testing DevOps Node! JS Project Hello How are you ? welcome to devOps Project')
+  response.send('Hello Testing DevOps Node! JS Project Hello How are you ? welcome to devOps Project. I am farman ansari duing the testings')
 }) 
 
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
 })
 
-app.get('/', function(request, response) {
-  response.send('I am fansari@ekcs.co and this is NodeJs Application ')
-}) 
-
-app.listen(app.get('port'), function() {
-  console.log("Node app is running at localhost:" + app.get('port'))
-})
